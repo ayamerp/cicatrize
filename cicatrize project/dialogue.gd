@@ -11,6 +11,7 @@ var dialogue1 = [
 	{
 		"Name": "Santa",
 		"Expression": "Neutral",
+		"Color": [Color( 1, 0, 0, 1 )],
 		"Position": "1",
 		"Choices": ["", ""],
 		"Text": "Throw him away.",
@@ -18,22 +19,29 @@ var dialogue1 = [
 	{
 		"Name": "Elfa",
 		"Expression": "Neutral",
+		"Color": [Color(0, 1, 0, 1)],
 		"Position": "1",
 		"Choices": ["", ""],
-		"Text": "W-what do you mean sir?",
+		"Text": "Excuse me sir?! What do you mean?",
 	},
 	{
 		"Name": "Santa",
 		"Expression": "Neutral",
+		"Color": [Color( 1, 0, 0, 1 )],
 		"Position": "1",
 		"Choices": ["", ""],
-		"Text": "He turned out to be a defect so throw him away. Do I have to repoeat myself?",
+		"Text": "He turned out to be a defect so throw him away. Do I have to repeat myself?",
 	},
 	{
 		"Name": "Elfa",
 		"Expression": "Neutral",
+		"Color": [Color(0, 1, 0, 1)],
 		"Position": "1",
 		"Choices": ["", ""],
-		"Text": "N-no sir. I will do what you ask now.",
+		"Text": "No sir. I will do what you ask now.",
 	},
+			
 ]
+
+
+		

@@ -9,7 +9,6 @@ var active
 var position
 var expression
 
-
 func _ready():
 	load_dialogue()
 	
