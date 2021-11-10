@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://art/elfo.png" type="Texture" id=1]
+[ext_resource path="res://2ndplayer.gd" type="Script" id=2]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "wow",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 23.2491
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+position = Vector2( 279.387, 328.468 )
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 0.255495, -36.3559 )
+scale = Vector2( 0.25628, 0.270497 )
+frames = SubResource( 1 )
+animation = "wow"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.660217, -35.1559 )
+shape = SubResource( 2 )
