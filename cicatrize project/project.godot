@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="cicatrize"
-run/main_scene="res://assets/start point.tscn"
+run/main_scene="res://title_screen2.0.tscn"
 config/icon="res://icon.png"
 
 [display]

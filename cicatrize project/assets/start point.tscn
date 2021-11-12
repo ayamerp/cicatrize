@@ -151,7 +151,7 @@ position = Vector2( 702.425, 459.553 )
 scale = Vector2( 2.91481, 3.32934 )
 frames = SubResource( 1 )
 animation = "snow bg"
-frame = 52
+frame = 98
 playing = true
 
 [node name="1" type="Position2D" parent="."]

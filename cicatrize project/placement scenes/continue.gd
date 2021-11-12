@@ -3,4 +3,4 @@ extends Control
 
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://title screen.tscn")
+	get_tree().change_scene("res://title_screen2.0.tscn")
