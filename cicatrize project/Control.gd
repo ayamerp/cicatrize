@@ -9,7 +9,6 @@ var active
 var position
 var expression
 
-
 func _ready():
 	load_dialogue()
 	
@@ -23,15 +22,15 @@ func _physics_process(delta):
 				$textbox/Tween.stop_all()
 				$textbox/dialogue.percent_visible = 1
 				finished = true
-		
+
 func load_dialogue():
 	if dialogue_index < text.size():
 		active = true
 		finished = false
 		
-		$textbox.visible = true
+		$textbox.visible = true 
 		$textbox/dialogue.bbcode_text = text[dialogue_index]["Text"]
-		$textbox/name.text = text[dialogue_index]["Name"] 
+		$textbox/name.text = text[dialogue_index]["Name"]
 		
 		position = text[dialogue_index]["Position"]
 		
@@ -43,11 +42,9 @@ func load_dialogue():
 		$textbox/Tween.start()
 	else:
 		$textbox.visible = false
-		finished = true
+		finished = false
 		active = false
-	dialogue_index += 1 
-	
-	
-
+	dialogue_index += 1
+		
 func _on_Tween_tween_completed(object, key):
 	 finished = true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Fireplace Sound.ogg-45b4fe7b375c6187f85d7358f8085863.oggstr"
+
+[deps]
+
+source_file="res://assets/moosic/Fireplace Sound.ogg"
+dest_files=[ "res://.import/Fireplace Sound.ogg-45b4fe7b375c6187f85d7358f8085863.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

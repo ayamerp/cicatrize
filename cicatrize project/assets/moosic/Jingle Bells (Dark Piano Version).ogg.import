@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Jingle Bells (Dark Piano Version).ogg-7f2cd02f80f6a07cb8eb281277000f48.oggstr"
+
+[deps]
+
+source_file="res://assets/moosic/Jingle Bells (Dark Piano Version).ogg"
+dest_files=[ "res://.import/Jingle Bells (Dark Piano Version).ogg-7f2cd02f80f6a07cb8eb281277000f48.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
