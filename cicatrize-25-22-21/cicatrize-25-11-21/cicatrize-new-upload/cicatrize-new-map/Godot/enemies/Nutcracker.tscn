@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Nutcracker.gd" type="Script" id=1]
+[ext_resource path="res://art/enemy.png" type="Texture" id=2]
+[ext_resource path="res://objects/enemy_gun.tscn" type="PackedScene" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 78 )
+
+[node name="Nutcracker" type="KinematicBody2D"]
+script = ExtResource( 1 )
+direction = -1
+
+[node name="enemy" type="Sprite" parent="."]
+scale = Vector2( 1.4108, 1.4108 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 12 )
+shape = SubResource( 1 )
+
+[node name="floor_checker" type="RayCast2D" parent="."]
+enabled = true
+cast_to = Vector2( 0, 100 )
+collision_mask = 4
+
+[node name="enemy_gun" parent="." instance=ExtResource( 3 )]
+position = Vector2( 10, 6 )
+scale = Vector2( 2.5, 2.5 )
