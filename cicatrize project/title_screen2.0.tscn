@@ -115,7 +115,7 @@ autoplay = true
 position = Vector2( 541.39, 459.136 )
 frames = SubResource( 1 )
 animation = "christmas"
-frame = 49
+frame = 26
 playing = true
 
 [node name="menu" type="VBoxContainer" parent="."]
