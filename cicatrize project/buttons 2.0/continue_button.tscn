@@ -6,4 +6,4 @@
 scene_to_load = "res://placement scenes/continue.tscn"
 
 [node name="Label" parent="." index="0"]
-text = "continue"
+text = "levels"

@@ -115,7 +115,7 @@ autoplay = true
 position = Vector2( 541.39, 459.136 )
 frames = SubResource( 1 )
 animation = "christmas"
-frame = 1
+frame = 49
 playing = true
 
 [node name="menu" type="VBoxContainer" parent="."]
@@ -158,6 +158,7 @@ scene_to_load = "res://assets/start point.tscn"
 margin_top = 335.0
 margin_bottom = 395.0
 rect_min_size = Vector2( 360, 60 )
+scene_to_load = "res://lvl_slc.tscn"
 
 [node name="options_button" parent="menu/centerrow/buttons" instance=ExtResource( 66 )]
 margin_top = 415.0
